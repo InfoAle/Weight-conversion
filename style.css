@@ -1,0 +1,59 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(to right, #1f4647, #48777a);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#output {
+  font-size: 13px;
+}
+
+span {
+  color: red;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.wrapper {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  left: 50%;
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: white;
+  font-size: 19px;
+  outline: none;
+}
+
+select {
+  color: black;
+  font-size: 15px;
+  outline: none;
+}
+
+button {
+  background: none;
+  border: 1px solid white;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  transition: ease-in-out 300ms;
+}
+
+button:hover {
+  background-color: #48777a;
+}
